@@ -1,0 +1,12 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+/* purgecss end ignore */
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+.upsidedown {
+	transform: rotate(180deg) scaleX(-1);
+	border-top: 1px solid black;
+}

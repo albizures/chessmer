@@ -1,0 +1,29 @@
+{
+	"name": "chessmer",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Jose Albizures <jose@albizures.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"start": "next start"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"next": "^9.3.6",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"recoil": "^0.0.10"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^2.2.0",
+		"@types/classnames": "^2.2.10",
+		"@types/node": "^13.13.5",
+		"@types/react": "^16.9.34",
+		"autoprefixer": "^9.7.6",
+		"postcss-import": "^12.0.1",
+		"tailwindcss": "^1.4.5",
+		"typescript": "^3.8.3"
+	}
+}
