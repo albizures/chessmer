@@ -84,7 +84,7 @@ const Index: React.FC = () => {
 	const paused = state === States.Paused;
 
 	return (
-		<div className="container flex content-center flex-col justify-center h-screen">
+		<div className="relative mx-auto container flex content-center flex-col justify-center h-screen">
 			<NextHead>
 				<title>Chessmer</title>
 			</NextHead>
@@ -94,7 +94,7 @@ const Index: React.FC = () => {
 				type={PlayerType.Player1}
 				time={timer1}
 			/>
-			<div className="px-4 flex space-x-4 content-center items-stretch absolute w-full  z-10">
+			<div className="px-4 flex space-x-4 content-center items-stretch absolute w-full z-10">
 				<FloatButton onClick={onAdd}>+</FloatButton>
 				<FloatButton disabled={state === States.Idle} onClick={onReset}>
 					⏹
