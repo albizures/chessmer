@@ -7,6 +7,6 @@
 @import 'tailwindcss/utilities';
 
 .upsidedown {
-	transform: rotate(180deg) scaleX(-1);
+	transform: rotate(180deg);
 	border-top: 1px solid black;
 }
